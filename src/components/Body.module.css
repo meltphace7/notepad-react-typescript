@@ -1,0 +1,19 @@
+.body {
+width: 100%;
+min-height: 100vh;
+background-color: rgb(152, 152, 152);
+display: flex;
+justify-content: space-between;
+}
+
+.note-list-container {
+  width: 30%;
+  background-color: rgb(63, 63, 63);
+  min-height: 100vh;
+}
+
+.note-detail-container {
+  width: 70%;
+  background-color: rgb(141, 140, 140);
+  min-height: 100vh;
+}

@@ -1,13 +1,97 @@
-body {
+*,
+*::before,
+*::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  box-sizing: inherit;
+  width: 100%;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 65em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 40em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  font-family: "Raleway", "barlow", sans-serif;
+  font-weight: 200;
+  /* line-height: 1.6; */
+  letter-spacing: 0.05rem;
+}
+
+@media (max-width: 40em) {
+ body {
+    background-color: black;
+ }
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+button {
+  letter-spacing: 0.05rem;
+  font-size: 1.6rem;
+  border: unset;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+label {
+  font-size: 1.6rem;
+  font-family: inherit;
+}
+
+select {
+  font-family: inherit;
+  font-size: 17px;
+}
+
+input[type='text'],
+input[type='number'],
+textarea {
+  font-size: 17px;
 }

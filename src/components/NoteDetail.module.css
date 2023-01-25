@@ -1,0 +1,14 @@
+.note-detail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(40, 39, 39);
+    color: white;
+    min-height: 100%;
+    padding: 2rem;
+}
+
+.note-detail h1 {
+    margin: 5rem;
+}
